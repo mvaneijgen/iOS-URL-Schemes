@@ -1,7 +1,6 @@
-# iOS-URL-Schemes
-## [Check the list here](#)
+# [Check the list here](https://github.com/mvaneijgen/iOS-URL-Schemes/wiki)
 
-### References
+### Other references
 *Dropbox link to a lot of Apps -thanks to /u/meefmaster*: https://www.dropbox.com/s/3haz1ww8hkjiwdc/big%20ios%20url%20scheme%20list%201.txt?dl=0
 
 *Here's a page from Apple's Documentation*
