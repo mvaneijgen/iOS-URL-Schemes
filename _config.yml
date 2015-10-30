@@ -12,7 +12,7 @@ email: mvaneijgen@gmail.com
 
 # the base hostname & protocol for your site
 url: ""
-baseurl: ""
+baseurl: "//mvaneijgen.nl/iOS-URL-Schemes/"
 
 default_image: /image.jpg
 
