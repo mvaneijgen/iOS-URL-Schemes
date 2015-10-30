@@ -1,5 +1,7 @@
 # [Check the list here](https://github.com/mvaneijgen/iOS-URL-Schemes/wiki)
 
+## [Original reddit post](https://www.reddit.com/r/workflow/comments/3qmbj7/ios_url_schemes_v2/)
+
 ### Other references
 *Dropbox link to a lot of Apps -thanks to /u/meefmaster*: https://www.dropbox.com/s/3haz1ww8hkjiwdc/big%20ios%20url%20scheme%20list%201.txt?dl=0
 
@@ -10,7 +12,7 @@ https://developer.apple.com/library/safari/featuredarticles/iPhoneURLScheme_Refe
 https://www.reddit.com/r/workflow/comments/2tlx29/get_url_scheme_of_any_app
 
 *Searchable Online Database*
-http://handleopenurl.com 
+http://handleopenurl.com
 
 *Wiki with several Apps*
 http://wiki.akosma.com/IPhone_URL_Schemes

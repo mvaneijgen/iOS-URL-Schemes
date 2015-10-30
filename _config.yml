@@ -1,0 +1,36 @@
+# Site settings
+
+title: iOS URL Schemes
+tagline:
+copyright:
+keywords:
+
+description:
+
+# Company info
+email: mvaneijgen@gmail.com
+
+# the base hostname & protocol for your site
+url: ""
+baseurl: ""
+
+default_image: /image.jpg
+
+# Collections
+collections:
+  scheme:
+    output: false
+
+# Pre-processing
+
+markdown: kramdown
+highlighter: pygments
+safe: true
+permalink: /blog/:title/ # YYYY/MM/DD/page-title/index.html
+lsi: true # Lexical analysis (true) takes longer for higher quality
+# sass:
+#  style: :compressed
+
+# Exclude from Jekyll processing
+
+exclude: ["vendor", "README.md", "node_modules", "gulpfile.js", "package.json"]

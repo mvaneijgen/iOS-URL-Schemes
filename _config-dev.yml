@@ -1,0 +1,82 @@
+# Site settings
+
+title: Alloy
+tagline: Verhalen vertellen met pixels op het beeldscherm
+copyright: M van Eijgen
+keywords:
+
+description: <p>Alloy staat bij ons voor het samensmelten van verschillende talenten om een sterker geheel te vormen. Wij zijn een nieuwe generatie ondernemers die geloven in de slagkracht van het individu en binnen ons collectief hebben we elkaar nodig om te kunnen excelleren.</p><p>Of het nu voor een startende ondernemer is of voor gevestigde multinationals, wij richten ons niet op een specifieke sector of type onderneming. Wij zijn opzoek naar mensen die hun verhaal willen overbrengen. Wij verstaan ons vak en proberen ons in te leven in de doelgroep om zodoende het verhaal op de juiste manier over te brengen. Wij doen ons werk met veel enthousiasme en toewijding. Dat straalt af op onze opdrachtgevers.</p>
+
+# Company info
+email: contact@studioalloy.com
+phone: +31 6 10 11 41 79
+address: Gasthuistvest 47 <br /> 2011EV Haarlem
+workspacedec: Ben jij een creatieve ondernemer en op zoek naar een mooie werkruimte in Haarlem? Wij ontmoeten je graag en misschien pas je perfect bij het team!
+
+# the base hostname & protocol for your site
+url: "//studioalloy.nl"
+baseurl: ""
+
+twitter_username: studioalloy
+github_username:  studioalloy
+
+default_image: /image.jpg
+
+# Collections
+collections:
+  scheme:
+    output: false
+
+# Pre-processing
+
+markdown: kramdown
+highlighter: pygments
+safe: true
+permalink: /blog/:title/ # YYYY/MM/DD/page-title/index.html
+lsi: true # Lexical analysis (true) takes longer for higher quality
+# sass:
+#  style: :compressed
+
+# Exclude from Jekyll processing
+
+exclude: ["vendor", "README.md", "node_modules", "gulpfile.js", "package.json"]
+
+# Lists
+
+tag_items: 20     # Applies to categories and tags lists
+recent_items: 10  # Applies to recent posts, apps lists
+related_items: 5  # Applies to related posts and apps lists
+
+# Features
+
+facebook: false       # Use facebook features
+comments: none      # Switch disqus | facebook | none - comments. facebook = true required for facebook comments
+
+# Embeds
+
+disqus_name: 		              # Your site name at Disqus
+
+youtube_controls: 0               # Turn on=1/off=0 Youtube player features when embedding videos
+
+google_map_zoom: 16               # 1=Global zoom 18=Street Level
+google_map_view: satellite        # hybrid | satellite | roadmap
+google_map_height: 450            # Default map height. Width adjusts to container.
+
+# API Keys. PLEASE DO NOT USE THESE KEYS. Get your own at links in comments.
+
+google_api_key: "" # https://code.google.com/apis/console/
+google_analytics_ua: "" # Google Analytics site specific id
+google_cse_id: "" # Google Custom Search Engine unique id
+
+mapbox: ""
+
+facebook_app: "" # https://developers.facebook.com/
+
+mailchimp_u: "" # Mailchimp u=unique identification
+mailchimp_id: "" # Mailchip id
+
+addthis_pubid: "" # Get your pubid at https://www.addthis.com/dashboard
+
+pingdom_rum: "" # https://my.pingdom.com/dashboard. Real User experience (speed) monitoring.
+
+uservoice: ""
