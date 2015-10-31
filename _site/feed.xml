@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iOS URL Schemes</title>
-    <description>iOS URL schemes is an awesome way to automate some parts of your live with you iOS device. There whole apps dedicated to working with this trick, like [Drafst](http://agiletortoise.com/drafts/), [Launch Center Pro](http://contrast.co/launch-center-pro/) and [Workflow](https://workflow.is). But in theory all you need is a broser.</description>
+    <description>iOS URL schemes is an awesome way to automate some parts of your live with you iOS device.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 31 Oct 2015 14:31:51 +0100</pubDate>
-    <lastBuildDate>Sat, 31 Oct 2015 14:31:51 +0100</lastBuildDate>
+    <pubDate>Sat, 31 Oct 2015 14:40:23 +0100</pubDate>
+    <lastBuildDate>Sat, 31 Oct 2015 14:40:23 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
