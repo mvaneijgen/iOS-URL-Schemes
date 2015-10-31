@@ -91,7 +91,7 @@ td {
     padding: 1ex;
 }
 #table_filter label {
-    position: absolute;
+    position: fixed;
     right: 0;
     margin-right: -146px;
     background: #39f;
