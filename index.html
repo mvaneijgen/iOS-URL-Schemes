@@ -4,8 +4,6 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
     <table id="table" class="display" cellspacing="0" width="100%">
       <thead>
         <tr>
@@ -15,15 +13,6 @@ layout: default
           <th>Jailbreak</th>
         </tr>
       </thead>
-
-      <tfoot>
-        <tr>
-          <th>App name</th>
-          <th>Scheme</th>
-          <th>Runs</th>
-          <th>Jailbreak</th>
-        </tr>
-      </tfoot>
 
       <tbody>
         {% for scheme in site.data.scheme %}
@@ -37,7 +26,5 @@ layout: default
         {% endfor %}
       </tbody>
     </table>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

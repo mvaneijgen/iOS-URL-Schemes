@@ -2,23 +2,133 @@
 # It is best to add the supmission right below here so de website will show latest supmisons first
 # Upload your image to imgur.com and copy the "Direct Link" (the one with the file extention) please never delete this upload!
 # Make sure the text is not longer then 20 words and has no : !
-#- name: Don't use : symbol!
-#  about: Don't use : symbol!
-#  genre: Only one genre!
-#  image: imgur.com/ABC123.jpg|.gif(no .png) please make sure images are not larger then 600px wide!
-#  gamewebsite: http://domain.com
-#  devwebsite: http://domain.com
-#  dateadd: Y-M-D
-#  releasedate: Y-M-D
-#  western: true|false
-#  released: true|false
 
 - name: Game Center
   scheme: gamecenter://
   run: everywhere
   jailbreak: false
 
-- name: test
+- name: Safari
   scheme: webclip://
   run: Notification center
   jailbreak: true
+
+- name: Settings
+  scheme: app-prefs://
+  run: Springboard
+  jailbreak: false
+
+- name: Safari
+  scheme: applefeedback://
+  run: Notification center
+  jailbreak: true
+
+- name: Safari
+  scheme: applenews://
+  run: everywhere
+  jailbreak: false
+
+- name: Music
+  scheme: audio-player-event://
+  run: Notification center
+  jailbreak: true
+
+- name: Calender
+  scheme: calinvite://
+  run: everywhere
+  jailbreak: false
+
+- name: Calender
+  scheme: calinvitelist://
+  run: Notification center
+  jailbreak: true
+
+- name: Calender
+  scheme: calshow://
+  run: everywhere
+  jailbreak: false
+
+- name: Safari
+  scheme: com-apple-mobilesafari-tab://
+  run: Notification center
+  jailbreak: true
+
+- name: Safari
+  scheme: diagnostics://
+  run: everywhere
+  jailbreak: false
+
+- name: Facetime
+  scheme: facetime-audio://
+  run: Notification center
+  jailbreak: true
+
+- name: Game Center
+  scheme: gamecenter://
+  run: everywhere
+  jailbreak: false
+
+- name: Game Center
+  scheme: gamecenter://
+  run: everywhere
+  jailbreak: false
+
+- name: Safari
+  scheme: webclip://
+  run: Notification center
+  jailbreak: true
+
+- name: Settings
+  scheme: app-prefs://
+  run: Springboard
+  jailbreak: false
+
+- name: Safari
+  scheme: applefeedback://
+  run: Notification center
+  jailbreak: true
+
+- name: Safari
+  scheme: applenews://
+  run: everywhere
+  jailbreak: false
+
+- name: Music
+  scheme: audio-player-event://
+  run: Notification center
+  jailbreak: true
+
+- name: Calender
+  scheme: calinvite://
+  run: everywhere
+  jailbreak: false
+
+- name: Calender
+  scheme: calinvitelist://
+  run: Notification center
+  jailbreak: true
+
+- name: Calender
+  scheme: calshow://
+  run: everywhere
+  jailbreak: false
+
+- name: Safari
+  scheme: com-apple-mobilesafari-tab://
+  run: Notification center
+  jailbreak: true
+
+- name: Safari
+  scheme: diagnostics://
+  run: everywhere
+  jailbreak: false
+
+- name: Facetime
+  scheme: facetime-audio://
+  run: Notification center
+  jailbreak: true
+
+- name: Game Center
+  scheme: gamecenter://
+  run: everywhere
+  jailbreak: false
