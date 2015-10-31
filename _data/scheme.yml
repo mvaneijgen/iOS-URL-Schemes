@@ -1,8 +1,3 @@
-# Down here is a empty template for adding a new game just delete the # on every row.
-# It is best to add the supmission right below here so de website will show latest supmisons first
-# Upload your image to imgur.com and copy the "Direct Link" (the one with the file extention) please never delete this upload!
-# Make sure the text is not longer then 20 words and has no : !
-
 - name: Game Center
   scheme: gamecenter://
   run: everywhere
