@@ -60,8 +60,7 @@ footer {
 ———————————————————————————————————— */
 header {
   background: #39f;
-  height: 100vh;
-
+  min-height: 100vh;
 }
 a.site-title {
   text-decoration: none;
