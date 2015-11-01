@@ -25,7 +25,7 @@ body {
   margin: 0;
   font-size: 18px;
   line-height: 24px;
-  background: #223;
+  background: #044;
 }
 body,
 body a {
@@ -59,7 +59,7 @@ footer {
 /* Header
 ———————————————————————————————————— */
 header {
-  background: #39f;
+  background: #0ba;
   min-height: 100vh;
 }
 a.site-title {
@@ -111,7 +111,7 @@ thead {
   background: #e64;
 }
 tr:nth-of-type(2n+2) {
-  background: #335;
+  background: #055;
 }
 th {
   text-align: left;
@@ -120,28 +120,20 @@ th {
 th, td {
   padding: 2ex 4ex;
 }
-#table_info {
-    text-align: right;
-    color: rgba(255,255,255,.1);
+#table_filter {
     padding: 2ex;
+    background: #0ba;
 }
 #table_filter label {
-  position: fixed;
-  right: 0;
-  margin-right: -146px;
-  background: #39f;
-  padding: 1ex;
-  border-radius: 5px 0 0 5px;
-  -webkit-transition: margin-right .2s ease;
-  transition: margin-right .2s ease;
-  margin-top: 100px;
+  display: flex;
 }
-#table_filter label:hover,
-#table_filter label:focus {
-  margin-right: 0;
-}
-input[type="search"] {
-  margin-left: 2ex;
+#table_filter input[type="search"] {
+    width: 100%;
+    margin-left: 2ex;
+    height: 30px;
+    border: 0;
+    background: transparent;
+    border-bottom: 4px solid rgba(255,255,255,.4);
 }
 /* END Table
 ———————————————————————————————————— */
@@ -194,9 +186,6 @@ footer > * {
     display: flex;
     text-align: center;
     justify-content: space-between;
-  }
-  .main {
-    order: -1;
   }
 }
 /* END MQ
