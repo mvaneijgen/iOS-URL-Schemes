@@ -15,7 +15,7 @@ twitter_username: mvaneijgen
 
 # the base hostname & protocol for your site
 url: ""
-baseurl: "//mvaneijgen.nl/iOS-URL-Schemes/"
+baseurl: "//mvaneijgen.nl/iOS-URL-Schemes"
 
 default_image: /image.jpg
 
