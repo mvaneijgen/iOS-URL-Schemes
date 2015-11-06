@@ -127,3 +127,10 @@
   scheme: gamecenter://
   run: everywhere
   jailbreak: false
+  origin: Stock
+
+- name: Sleepcycle
+  scheme: sleepcycle://
+  run: everywhere
+  jailbreak: false
+  origin: App
