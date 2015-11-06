@@ -1,6 +1,96 @@
+- name: App Store
+  scheme: imts-apps://
+  run: Safari
+  jailbreak: false
+  
+- name: Calender
+  scheme: calinvite://
+  run: Safari
+  jailbreak: false
+
+- name: Calender
+  scheme: calinvitelist://
+  run: Notification center
+  jailbreak: true
+
+- name: Calender
+  scheme: calshow://
+  run: Safari
+  jailbreak: false
+
+- name: Facetime
+  scheme: facetime-audio://
+  run: Notification center
+  jailbreak: true
+
+- name: Find My iPhone
+  scheme: fmip1://
+  run: Safari
+  jailbreak: false
+  
+- name: Find My Friends
+  scheme: findmyfriends://
+  run: Safari
+  jailbreak: false
+  
+  - name: Find My Friends
+  scheme: fmf1://
+  run: Safari
+  jailbreak: false
+
 - name: Game Center
   scheme: gamecenter://
-  run: everywhere
+  run: Safari
+  jailbreak: false
+
+- name: iBooks
+  scheme: ibooks://
+  run: Safari
+  jailbreak: false
+  
+- name: iTunes
+  scheme: itms://
+  run: Safari
+  jailbreak: false
+  
+- name: Music
+  scheme: audio-player-event://
+  run: Notification center
+  jailbreak: true
+
+- name: Notes
+  scheme: mobilenotes://
+  run: Safari
+  jailbreak: false
+  
+  - name: Photos
+  scheme: photos-redirect://
+  run: Safari
+  jailbreak: false
+  
+- name: Podcast
+  scheme: itms-podcast://
+  run: Safari
+  jailbreak: false
+  
+- name: Safari
+  scheme: applefeedback://
+  run: Notification center
+  jailbreak: true
+
+- name: Safari
+  scheme: applenews://
+  run: Safari
+  jailbreak: false
+
+- name: Safari
+  scheme: com-apple-mobilesafari-tab://
+  run: Notification center
+  jailbreak: true
+
+- name: Safari
+  scheme: diagnostics://
+  run: Safari
   jailbreak: false
 
 - name: Safari
@@ -12,125 +102,9 @@
   scheme: app-prefs://
   run: Springboard
   jailbreak: false
-
-- name: Safari
-  scheme: applefeedback://
-  run: Notification center
-  jailbreak: true
-
-- name: Safari
-  scheme: applenews://
-  run: everywhere
-  jailbreak: false
-
-- name: Music
-  scheme: audio-player-event://
-  run: Notification center
-  jailbreak: true
-
-- name: Calender
-  scheme: calinvite://
-  run: everywhere
-  jailbreak: false
-
-- name: Calender
-  scheme: calinvitelist://
-  run: Notification center
-  jailbreak: true
-
-- name: Calender
-  scheme: calshow://
-  run: everywhere
-  jailbreak: false
-
-- name: Safari
-  scheme: com-apple-mobilesafari-tab://
-  run: Notification center
-  jailbreak: true
-
-- name: Safari
-  scheme: diagnostics://
-  run: everywhere
-  jailbreak: false
-
-- name: Facetime
-  scheme: facetime-audio://
-  run: Notification center
-  jailbreak: true
-
-- name: Game Center
-  scheme: gamecenter://
-  run: everywhere
-  jailbreak: false
-
-- name: Game Center
-  scheme: gamecenter://
-  run: everywhere
-  jailbreak: false
-
-- name: Safari
-  scheme: webclip://
-  run: Notification center
-  jailbreak: true
-
-- name: Settings
-  scheme: app-prefs://
-  run: Springboard
-  jailbreak: false
-
-- name: Safari
-  scheme: applefeedback://
-  run: Notification center
-  jailbreak: true
-
-- name: Safari
-  scheme: applenews://
-  run: everywhere
-  jailbreak: false
-
-- name: Music
-  scheme: audio-player-event://
-  run: Notification center
-  jailbreak: true
-
-- name: Calender
-  scheme: calinvite://
-  run: everywhere
-  jailbreak: false
-
-- name: Calender
-  scheme: calinvitelist://
-  run: Notification center
-  jailbreak: true
-
-- name: Calender
-  scheme: calshow://
-  run: everywhere
-  jailbreak: false
-
-- name: Safari
-  scheme: com-apple-mobilesafari-tab://
-  run: Notification center
-  jailbreak: true
-
-- name: Safari
-  scheme: diagnostics://
-  run: everywhere
-  jailbreak: false
-
-- name: Facetime
-  scheme: facetime-audio://
-  run: Notification center
-  jailbreak: true
-
-- name: Game Center
-  scheme: gamecenter://
-  run: everywhere
-  jailbreak: false
-  origin: Stock
 
 - name: Sleepcycle
   scheme: sleepcycle://
   run: everywhere
   jailbreak: false
-  origin: App
+ 
