@@ -48,8 +48,18 @@
   run: Safari
   jailbreak: false
   
+- name: iCloud
+  scheme: iclouddriveapp://
+  run: Notification center
+  jailbreak: true
+  
 - name: iTunes
   scheme: itms://
+  run: Safari
+  jailbreak: false
+
+- name: Maps
+  scheme: map://
   run: Safari
   jailbreak: false
   
@@ -63,13 +73,18 @@
   run: Safari
   jailbreak: false
   
-  - name: Photos
+- name: Photos
   scheme: photos-redirect://
   run: Safari
   jailbreak: false
   
 - name: Podcast
   scheme: itms-podcast://
+  run: Safari
+  jailbreak: false
+  
+- name: Radio
+  scheme: itsradio://
   run: Safari
   jailbreak: false
   
@@ -108,3 +123,7 @@
   run: everywhere
   jailbreak: false
  
+- name: Watch
+  scheme: itms-watch://
+  run: Safari
+  jailbreak: false
