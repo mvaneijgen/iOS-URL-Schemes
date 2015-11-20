@@ -9,8 +9,8 @@ layout: default
         <tr>
           <th>Scheme</th>
           <th>App name</th>
-          <th>Runs</th>
-          <th>Jailbreak</th>
+          <th>Can be run from</th>
+          <th>Device status</th>
         </tr>
       </thead>
 
@@ -21,7 +21,7 @@ layout: default
           <td>{{ scheme.scheme }}</td>
           <td>{{ scheme.name }}</td>
           <td>{{ scheme.run }}</td>
-          <td>{{ scheme.jailbreak }}</td>
+          <td>{{ scheme.device-status }}</td>
         </tr>
         {% endfor %}
       </tbody>

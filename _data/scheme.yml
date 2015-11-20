@@ -1,129 +1,406 @@
-- name: App Store
-  scheme: imts-apps://
-  run: Safari
-  jailbreak: false
-  
-- name: Calender
-  scheme: calinvite://
-  run: Safari
-  jailbreak: false
-
-- name: Calender
-  scheme: calinvitelist://
-  run: Notification center
-  jailbreak: true
-
-- name: Calender
-  scheme: calshow://
-  run: Safari
-  jailbreak: false
-
-- name: Facetime
-  scheme: facetime-audio://
-  run: Notification center
-  jailbreak: true
-
-- name: Find My iPhone
-  scheme: fmip1://
-  run: Safari
-  jailbreak: false
-  
-- name: Find My Friends
-  scheme: findmyfriends://
-  run: Safari
-  jailbreak: false
-  
-  - name: Find My Friends
-  scheme: fmf1://
-  run: Safari
-  jailbreak: false
-
-- name: Game Center
-  scheme: gamecenter://
-  run: Safari
-  jailbreak: false
-
-- name: iBooks
-  scheme: ibooks://
-  run: Safari
-  jailbreak: false
-  
-- name: iCloud
-  scheme: iclouddriveapp://
-  run: Notification center
-  jailbreak: true
-  
-- name: iTunes
-  scheme: itms://
-  run: Safari
-  jailbreak: false
-
-- name: Maps
-  scheme: map://
-  run: Safari
-  jailbreak: false
-  
-- name: Music
-  scheme: audio-player-event://
-  run: Notification center
-  jailbreak: true
-
-- name: Notes
-  scheme: mobilenotes://
-  run: Safari
-  jailbreak: false
-  
-- name: Photos
-  scheme: photos-redirect://
-  run: Safari
-  jailbreak: false
-  
-- name: Podcast
-  scheme: itms-podcast://
-  run: Safari
-  jailbreak: false
-  
-- name: Radio
-  scheme: itsradio://
-  run: Safari
-  jailbreak: false
-  
-- name: Safari
-  scheme: applefeedback://
-  run: Notification center
-  jailbreak: true
-
-- name: Safari
-  scheme: applenews://
-  run: Safari
-  jailbreak: false
-
-- name: Safari
-  scheme: com-apple-mobilesafari-tab://
-  run: Notification center
-  jailbreak: true
-
-- name: Safari
-  scheme: diagnostics://
-  run: Safari
-  jailbreak: false
-
-- name: Safari
-  scheme: webclip://
-  run: Notification center
-  jailbreak: true
-
-- name: Settings
+- name: settings
   scheme: app-prefs://
-  run: Springboard
-  jailbreak: false
+  run: springboard
+  device-status: stock
 
-- name: Sleepcycle
-  scheme: sleepcycle://
+
+- name: feedback assistant
+  scheme: applefeedback://
   run: everywhere
-  jailbreak: false
- 
-- name: Watch
+  device-status: stock
+
+
+- name: apple news
+  scheme: applenews://
+  run: springboard
+  device-status: stock
+
+
+- name: music
+  scheme: audio-player-event://
+  run: everywhere
+  device-status: stock
+
+
+- name: calender
+  scheme: calinvite://
+  run: springboard
+  device-status: stock
+
+
+- name: calender
+  scheme: calinvitelist://
+  run: springboard
+  device-status: stock
+
+
+- name: calender
+  scheme: calshow://
+  run: everywhere
+  device-status: stock
+
+
+- name: ...
+  scheme: com-apple-mobilesafari-tab://
+  run: ...
+  device-status: stock
+
+
+- name: Diagnostics
+  scheme: diagnostics://
+  run: everywhere
+  device-status: stock
+
+
+- name: facetime
+  scheme: facetime-audio://
+  run: everywhere
+  device-status: stock
+
+
+- name: facetime
+  scheme: facetime-audio-prompt://
+  run: everywhere
+  device-status: stock
+
+
+- name: ...
+  scheme: fb309481925768757://
+  run: ...
+  device-status: stock
+
+
+- name: ...
+  scheme: feed://
+  run: everywhere
+  device-status: stock
+
+
+- name: ...
+  scheme: ftp://
+  run: everywhere
+  device-status: stock
+
+
+- name: gamecenter
+  scheme: gamecenter://
+  run: everywhere
+  device-status: stock
+
+
+- name: garageband
+  scheme: garageband://
+  run: everywhere
+  device-status: stock
+
+
+- name: safari
+  scheme: http://
+  run: everywhere
+  device-status: stock
+
+
+- name: safari
+  scheme: https://
+  run: everywhere
+  device-status: stock
+
+
+- name: ibooks
+  scheme: ibooks://
+  run: everywhere
+  device-status: stock
+
+
+- name: icloud drive
+  scheme: iclouddriveapp://
+  run: ...
+  device-status: stock
+
+
+- name: itunes store
+  scheme: itms://
+  run: everywhere
+  device-status: stock
+
+
+- name: itunes store
+  scheme: itmss://
+  run: everywhere
+  device-status: stock
+
+
+- name: app store
+  scheme: itms-apps://
+  run: everywhere
+  device-status: stock
+
+
+- name: app store
+  scheme: itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search...media=software&term=
+  run: everywhere
+  device-status: stock
+
+
+- name: app store
+  scheme: itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop...genreId=36&popId=30
+  run: everywhere
+  device-status: stock
+
+
+- name: ibooks
+  scheme: itms-books://
+  run: everywhere
+  device-status: stock
+
+
+- name: ibooks
+  scheme: itms-bookss://
+  run: everywhere
+  device-status: stock
+
+
+- name: game center
+  scheme: itms-gc://
+  run: everywhere
+  device-status: stock
+
+
+- name: game center
+  scheme: itms-gcs://
+  run: everywhere
+  device-status: stock
+
+
+- name: podcasts
+  scheme: itms-pcast://
+  run: everywhere
+  device-status: stock
+
+
+- name: podcasts
+  scheme: itms-pcasts://
+  run: everywhere
+  device-status: stock
+
+
+- name: app store
+  scheme: itms-services://
+  run: everywhere
+  device-status: stock
+
+
+- name: ...
   scheme: itms-watch://
-  run: Safari
-  jailbreak: false
+  run: ...
+  device-status: stock
+
+
+- name: music
+  scheme: itsradio://
+  run: everywhere
+  device-status: stock
+
+
+- name: ...
+  scheme: itms-itunesu://
+  run: ...
+  device-status: stock
+
+
+- name: mail
+  scheme: mailto://
+  run: everywhere
+  device-status: stock
+
+
+- name: maps
+  scheme: map://
+  run: everywhere
+  device-status: stock
+
+
+- name: maps
+  scheme: mapitem://
+  run: everywhere
+  device-status: stock
+
+
+- name: maps
+  scheme: maps://
+  run: everywhere
+  device-status: stock
+
+
+- name: mail
+  scheme: message://
+  run: everywhere
+  device-status: stock
+
+
+- name: notes
+  scheme: mobilenotes://
+  run: everywhere
+  device-status: stock
+
+
+- name: ...
+  scheme: movietrailers://
+  run: ...
+  device-status: stock
+
+
+- name: music
+  scheme: music://
+  run: everywhere
+  device-status: stock
+
+
+- name: music
+  scheme: musics://
+  run: everywhere
+  device-status: stock
+
+
+- name: podcasts
+  scheme: pcast://
+  run: everywhere
+  device-status: stock
+
+
+- name: photos
+  scheme: photos://
+  run: springboard
+  device-status: stock
+
+
+- name: photos
+  scheme: photos-event://
+  run: springboard
+  device-status: stock
+
+
+- name: photos
+  scheme: photos-migrate-iphoto://
+  run: springboard
+  device-status: stock
+
+
+- name: photos
+  scheme: photos-redirect://
+  run: everywhere
+  device-status: stock
+
+
+- name: podcasts
+  scheme: podcasts://
+  run: everywhere
+  device-status: stock
+
+
+- name: settings
+  scheme: prefs://
+  run: springboard
+  device-status: stock
+
+
+- name: safari
+  scheme: radar://
+  run: everywhere
+  device-status: stock
+
+
+- name: safari
+  scheme: rdar://
+  run: everywhere
+  device-status: stock
+
+
+- name: remote
+  scheme: remote://
+  run: everywhere
+  device-status: stock
+
+
+- name: messages
+  scheme: sms://
+  run: everywhere
+  device-status: stock
+
+
+- name: phone
+  scheme: tel://
+  run: everywhere
+  device-status: stock
+
+
+- name: phone
+  scheme: telprompt://
+  run: everywhere
+  device-status: stock
+
+
+- name: videos
+  scheme: videos://
+  run: everywhere
+  device-status: stock
+
+
+- name: voice memos
+  scheme: voicememos://
+  run: springboard
+  device-status: stock
+
+
+- name: ...
+  scheme: webapp://
+  run: ...
+  device-status: stock
+
+
+- name: calender
+  scheme: webcal://
+  run: ...
+  device-status: stock
+
+
+- name: safari
+  scheme: webclip://
+  run: springboard
+  device-status: stock
+
+
+- name: calender
+  scheme: x-apple-calevent://
+  run: everywhere
+  device-status: stock
+
+
+- name: reminder
+  scheme: x-apple-reminder://
+  run: everywhere
+  device-status: stock
+
+
+- name: maps
+  scheme: x-maps-bulletin://
+  run: springboard
+  device-status: stock
+
+
+- name: maps
+  scheme: x-maps-reopen://
+  run: springboard
+  device-status: stock
+
+
+- name: maps
+  scheme: x-maps-route-genius://
+  run: springboard
+  device-status: stock
+
+
+- name: ...
+  scheme: x-web-search://
+  run: ...
+  device-status: stock
