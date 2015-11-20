@@ -40,9 +40,9 @@
   device-status: stock
 
 
-- name: ...
+- name: TBA
   scheme: com-apple-mobilesafari-tab://
-  run: ...
+  run: TBA
   device-status: stock
 
 
@@ -64,19 +64,19 @@
   device-status: stock
 
 
-- name: ...
+- name: TBA
   scheme: fb309481925768757://
-  run: ...
+  run: TBA
   device-status: stock
 
 
-- name: ...
+- name: TBA
   scheme: feed://
   run: everywhere
   device-status: stock
 
 
-- name: ...
+- name: TBA
   scheme: ftp://
   run: everywhere
   device-status: stock
@@ -114,7 +114,7 @@
 
 - name: icloud drive
   scheme: iclouddriveapp://
-  run: ...
+  run: TBA
   device-status: stock
 
 
@@ -137,13 +137,13 @@
 
 
 - name: app store
-  scheme: itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search...media=software&term=
+  scheme: itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/searchTBAmedia=software&term=
   run: everywhere
   device-status: stock
 
 
 - name: app store
-  scheme: itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop...genreId=36&popId=30
+  scheme: itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTopTBAgenreId=36&popId=30
   run: everywhere
   device-status: stock
 
@@ -190,9 +190,9 @@
   device-status: stock
 
 
-- name: ...
+- name: TBA
   scheme: itms-watch://
-  run: ...
+  run: TBA
   device-status: stock
 
 
@@ -202,9 +202,9 @@
   device-status: stock
 
 
-- name: ...
+- name: TBA
   scheme: itms-itunesu://
-  run: ...
+  run: TBA
   device-status: stock
 
 
@@ -244,9 +244,9 @@
   device-status: stock
 
 
-- name: ...
+- name: TBA
   scheme: movietrailers://
-  run: ...
+  run: TBA
   device-status: stock
 
 
@@ -352,15 +352,15 @@
   device-status: stock
 
 
-- name: ...
+- name: TBA
   scheme: webapp://
-  run: ...
+  run: TBA
   device-status: stock
 
 
 - name: calender
   scheme: webcal://
-  run: ...
+  run: TBA
   device-status: stock
 
 
@@ -400,7 +400,7 @@
   device-status: stock
 
 
-- name: ...
+- name: TBA
   scheme: x-web-search://
-  run: ...
+  run: TBA
   device-status: stock
