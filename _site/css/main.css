@@ -184,8 +184,8 @@ th, td {
   border-bottom: 4px solid rgba(255,255,255,.4);
 }
 table.display.dataTable.no-footer.fixedHeader-floating {
-  box-shadow: 0 0 90px rgba(0,0,0,.2);
-  top: auto !important;
+    box-shadow: 0 0 40px rgba(85, 170, 255, 0.1);
+    top: auto !important;
 }
 #table_info {
     text-align: center;

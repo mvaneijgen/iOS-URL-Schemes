@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <base href="/">
+
+  <title>iOS URL Schemes</title>
+  <meta name="description" content="iOS URL schemes is an awesome way to automate some parts of your live with you iOS device.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="/test.html">
+  <link rel="alternate" type="application/rss+xml" title="iOS URL Schemes" href="/feed.xml" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+
+  <div class="main">
+    <div class="page-content">
+      <div class="wrapper">
+        <button onclick='load("_data/scheme.yml")' id='suggest-button'>Suggest Changes</button>
+
+<section id='error-section' class='feedback hide'></section>
+<section id='success-section' class='feedback hide'>
+Thank you, your suggestion has been submitted successfully.
+<a href='#' id='pull-link'>Review changes on GitHub</a>
+</section>
+
+<section id='edit-section' class='hide'>
+<h2>Edit</h2>
+<textarea name='text' rows='25'></textarea>
+<label for='message'>Describe your changes:</label>
+<input type='text' name='message' />
+<button onclick='save()'>Submit</button>
+<button onclick='cancel()'>Cancel</button>
+</section>
+</article>
+<script src="/app.js"></script>
+
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/datatables.min.js"></script>
+<script type="text/javascript" src="js/dataTables.fixedHeader.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#table').DataTable({
+paging: false,
+fixedHeader: true
+});
+});
+</script>
+
+</body>
+
+</html>

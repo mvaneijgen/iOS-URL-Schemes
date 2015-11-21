@@ -6,6 +6,12 @@ keywords:
 
 description: iOS URL schemes is an awesome way to automate some parts of your live with you iOS device.
 
+# Wiki Hub
+token: e55739ffd3573de5dea482fab8fa7c191839f0ab
+owner: mvaneijgen
+repo: iOS-URL-Schemes
+branch: gh-pages
+
 # Company info
 author: M van Eijgen
 email: contact@studioalloy.nl
