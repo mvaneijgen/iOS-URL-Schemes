@@ -404,3 +404,8 @@
   scheme: x-web-search://
   run: TBA
   device-status: stock
+
+- name: sleep cycle
+  scheme: sleepclycle://
+  run: everywhere
+  device-status: stock
