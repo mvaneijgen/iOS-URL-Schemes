@@ -406,6 +406,6 @@
   device-status: stock
 
 - name: sleep cycle
-  scheme: sleepclycle://
+  scheme: sleepcycle://
   run: everywhere
   device-status: stock
