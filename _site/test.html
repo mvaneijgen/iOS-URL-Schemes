@@ -19,32 +19,63 @@
 
 
 <body>
+<header>
+  <h1>iOS URL Schemes</h1>
+  <p>iOS URL schemes is an awesome way to automate some parts of your live with you iOS device.</p>
+</header>
 
   <div class="main">
     <div class="page-content">
       <div class="wrapper">
-        <button onclick='load("_data/scheme.yml")' id='suggest-button'>Suggest Changes</button>
+        <div class="col">
+  <h3>Add an new URL scheme</h3>
+  <label for="name">App name</label>
+  <input type="text" name"name" />
+
+  <label for="scheme">URL scheme</label>
+  <input type="text" name"scheme" />
+
+  <label for="scheme">Where does it run from?</label>
+  <select name="run">
+    <option value="everywhere">everywhere</option>
+    <option value="springboard">springboard</option>
+  </select>
+
+  <label for="device">Where does it run from?</label>
+  <select name="device">
+    <option value="stock">stock</option>
+    <option value="jailbreak">jailbreak</option>
+  </select>
+  <input type="button" name="submit" value="submit">
+</div>
+<div class="col">
+<button onclick='load("_data/scheme.yml")' id='suggest-button'>Suggest Changes</button>
 
 <section id='error-section' class='feedback hide'></section>
 <section id='success-section' class='feedback hide'>
-Thank you, your suggestion has been submitted successfully.
-<a href='#' id='pull-link'>Review changes on GitHub</a>
+  Thank you, your suggestion has been submitted successfully.
+  <a href='#' id='pull-link'>Review changes on GitHub</a>
 </section>
 
-<section id='edit-section' class='hide'>
-<h2>Edit</h2>
-<textarea name='text' rows='25'></textarea>
-<label for='message'>Describe your changes:</label>
-<input type='text' name='message' />
-<button onclick='save()'>Submit</button>
-<button onclick='cancel()'>Cancel</button>
+<section id='edit-section' class=''>
+  <h2>Edit</h2>
+  <textarea name='text' rows='25'></textarea>
+  <label for='message'>Describe your changes:</label>
+  <input type='text' name='message' />
+  <button onclick='save()'>Submit</button>
+  <button onclick='cancel()'>Cancel</button>
 </section>
-</article>
+</div>
 <script src="/app.js"></script>
 
       </div>
     </div>
   </div>
+<footer>
+  <p>This website is made by <a href="//mvaneijgen.nl">mvaneijgen. It is build on <a href="//jekyllrb.com">Jekyll</a> and running on <a href="#">Github pages.</a></p>
+  <p>Ohter neat stuff: <a href="//datatables.net">Data Tables</a>, <a href="//github.com/wiki-hub/wiki-hub">Wikihub</a></p>
+</footer>
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="js/datatables.min.js"></script>
 <script type="text/javascript" src="js/dataTables.fixedHeader.min.js"></script>
